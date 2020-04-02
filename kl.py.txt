@@ -1,0 +1,15 @@
+if __name__=='__main__':
+    c = int(input("Enter \n1 age \n2 year: "))
+    if c==1:
+        a = int(input("Enter your age: "))
+        print("You will be 100 after: ",100-a)
+    elif c==2:
+        a = input("Enter your year of birth: ")
+        if a>str(2019):
+            print("You are not yet born")
+        if a>str(1996):
+            print("You will be 100 after: ",100+int(a))
+        elif a<=str(1996):
+            print("You are oldest person seem to be alive")
+    else:
+        print("Enter valid input") 
